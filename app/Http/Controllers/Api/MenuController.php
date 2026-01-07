@@ -27,7 +27,7 @@ class MenuController extends Controller
         $menu_item->Icon = $request->Icon;
         $menu_item->Link = $request->Link;
         $menu_item->Order = $request->Order;
-        $menu_item->Status = 'Y';
+        $menu_item->Status = '1';
         $menu_item->save();
 
         return response()->json([
@@ -49,7 +49,7 @@ class MenuController extends Controller
         $menu_item->Icon = $request->Icon;
         $menu_item->Link = $request->Link;
         $menu_item->Order = $request->Order;
-        $menu_item->Status = 'Y';
+        $menu_item->Status = '1';
         $menu_item->save();
 
         return response()->json([
@@ -59,9 +59,11 @@ class MenuController extends Controller
 
     public function destroy($id)
     {
+
         $menu_item = MenuItem::where('Id',$id)->first();
+
         if ($menu_item) {
-            $user_menu = UserMenu::where('MenuID',$id)->get();
+            $user_menu = UserMenu::where('MenuItemId',$id)->get();
             foreach ($user_menu as $value){
                 $value->delete();
             }

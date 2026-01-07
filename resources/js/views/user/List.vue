@@ -32,15 +32,10 @@
                                         <tr>
                                             <th class="text-left">SN</th>
                                             <th class="text-left">Name</th>
-                                            <th class="text-left">Name Bangla</th>
                                             <th class="text-left">User ID</th>
                                             <th class="text-left">Role</th>
-                                            <th class="text-left">Designation</th>
                                             <th class="text-left">Mobile No.</th>
-                                            <th class="text-left">Mobile No. Bangla</th>
-                                            <th class="text-left">Address</th>
                                             <th class="text-left">Email</th>
-                                            <th class="text-left">Image</th>
                                             <th class="text-left">Status</th>
                                             <th class="text-left">Action</th>
                                         </tr>
@@ -49,18 +44,10 @@
                                         <tr v-for="(user, i) in users" :key="user.id" v-if="users.length">
                                             <th class="text-center" scope="row">{{ ++i }}</th>
                                             <td class="text-left">{{ user.name }}</td>
-                                            <td class="text-left">{{ user.name_bn }}</td>
                                             <td class="text-left">{{ user.username }}</td>
                                             <td class="text-left">{{ user.role_name }}</td>
-                                            <td class="text-left">{{ user.designation }}</td>
                                             <td class="text-right">{{ user.mobile }}</td>
-                                            <td class="text-right">{{ user.mobile_bn }}</td>
-                                            <td class="text-left">{{ user.address }}</td>
                                             <td class="text-left">{{ user.email }}</td>
-                                            <td class="text-left">
-                                                <img v-if="user.image" height="40" width="40"
-                                                     :src="tableImage(user.image)" alt="">
-                                            </td>
                                             <td class="text-left">
                                                 <span class="badge badge-success" v-if="user.Active == 1">Active</span>
                                                 <span class="badge badge-success" v-else>InActive</span>
@@ -124,13 +111,6 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Designation</label>
-                                            <input type="text" name="designation" v-model="form.designation" class="form-control" :class="{ 'is-invalid': form.errors.has('designation') }">
-                                            <div class="error" v-if="form.errors.has('designation')" v-html="form.errors.get('designation')" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
                                             <label>Mobile No.</label>
                                             <input type="text" name="mobile" v-model="form.mobile" class="form-control" :class="{ 'is-invalid': form.errors.has('mobile') }">
                                             <div class="error" v-if="form.errors.has('mobile')" v-html="form.errors.get('mobile')" />
@@ -138,23 +118,9 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Mobile No. Bangla</label>
-                                            <input type="text" name="mobile_bn" v-model="form.mobile_bn" class="form-control" :class="{ 'is-invalid': form.errors.has('mobile_bn') }">
-                                            <div class="error" v-if="form.errors.has('mobile_bn')" v-html="form.errors.get('mobile_bn')" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
                                             <label>Email</label>
                                             <input type="text" name="email" v-model="form.email" class="form-control" :class="{ 'is-invalid': form.errors.has('email') }">
                                             <div class="error" v-if="form.errors.has('email')" v-html="form.errors.get('email')" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Address</label>
-                                            <input type="text" name="address" v-model="form.address" class="form-control" :class="{ 'is-invalid': form.errors.has('address') }">
-                                            <div class="error" v-if="form.errors.has('address')" v-html="form.errors.get('address')" />
                                         </div>
                                     </div>
                                     <div class="col-md-6" v-if="!editMode">
@@ -172,14 +138,6 @@
                                                 <option :value="role.id" v-for="(role , index) in roles" :key="index">{{ role.name }}</option>
                                             </select>
                                             <div class="error" v-if="form.errors.has('role_id')" v-html="form.errors.get('role_id')" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Image</label>
-                                            <input @change="changeImage($event)" type="file" name="image" class="form-control" :class="{ 'is-invalid': form.errors.has('image') }">
-                                            <div class="error" v-if="form.errors.has('image')" v-html="form.errors.get('image')" />
-                                            <img v-if="form.image" :src="showImage(form.image)" alt="" height="40px" width="40px">
                                         </div>
                                     </div>
                                 </div>
@@ -213,16 +171,11 @@ export default {
             form: new Form({
                 id:'',
                 name:'',
-                name_bn:'',
                 username: '',
                 role_id: '',
                 role_name: '',
                 email:'',
-                designation: '',
                 mobile: '',
-                mobile_bn: '',
-                image: '',
-                address: '',
             }),
         }
     },

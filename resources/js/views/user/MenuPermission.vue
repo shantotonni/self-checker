@@ -15,7 +15,7 @@
                                                 <div class="input-group">
                                                     <select class="form-control" id="user" v-model="userId" name="userId">
                                                         <option disabled value="">Select User</option>
-                                                        <option :value="user.username" v-for="(user , index) in users" :key="index">{{ user.name }}</option>
+                                                        <option :value="user.UserCode" v-for="(user , index) in users" :key="index">{{ user.name }}</option>
                                                     </select>
                                                     <div class="form-group row mb-0" >
                                                         <div class="col-sm-12 text-right">

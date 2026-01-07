@@ -1,7 +1,16 @@
 <?php return array (
+  'Outlet' => 
+  array (
+    'database_name' => 'outlet_db',
+    'database_port' => '1433',
+    'database_user' => 'sa',
+    'database_password' => '',
+    'connection_timeout' => 30,
+    'encrypt' => 'no',
+  ),
   'app' => 
   array (
-    'name' => 'Price-Survey',
+    'name' => 'SelfChecker',
     'env' => 'local',
     'debug' => true,
     'url' => 'http://localhost',
@@ -10,7 +19,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:vvmDMLFY+GuG13lOpbPZZh/3XOg5vTXTC5XP1iK6TZ4=',
+    'key' => 'base64:MBdGk1BpHhRNDRYjcNIinYCt+i+FdGVnxz1eBIkGzy8=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -192,7 +201,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\xampp\\htdocs\\price-survey\\storage\\framework/cache/data',
+        'path' => 'D:\\xampp\\htdocs\\self-checker\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -236,7 +245,7 @@
         'driver' => 'octane',
       ),
     ),
-    'prefix' => 'price_survey_cache',
+    'prefix' => 'selfchecker_cache',
   ),
   'cors' => 
   array (
@@ -275,7 +284,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'GroupExpense',
+        'database' => 'SelfChecker',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -283,11 +292,11 @@
       array (
         'driver' => 'mysql',
         'url' => NULL,
-        'host' => '192.168.100.26',
+        'host' => '192.168.11.208',
         'port' => '1433',
-        'database' => 'GroupExpense',
+        'database' => 'SelfChecker',
         'username' => 'sa',
-        'password' => 'dataport',
+        'password' => 'flexiload',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -303,11 +312,11 @@
       array (
         'driver' => 'pgsql',
         'url' => NULL,
-        'host' => '192.168.100.26',
+        'host' => '192.168.11.208',
         'port' => '1433',
-        'database' => 'GroupExpense',
+        'database' => 'SelfChecker',
         'username' => 'sa',
-        'password' => 'dataport',
+        'password' => 'flexiload',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -318,11 +327,11 @@
       array (
         'driver' => 'sqlsrv',
         'url' => NULL,
-        'host' => '192.168.100.26',
+        'host' => '192.168.11.208',
         'port' => '1433',
-        'database' => 'GroupExpense',
+        'database' => 'SelfChecker',
         'username' => 'sa',
-        'password' => 'dataport',
+        'password' => 'flexiload',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
         'prefix' => '',
@@ -338,7 +347,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'price_survey_database_',
+        'prefix' => 'selfchecker_database_',
       ),
       'default' => 
       array (
@@ -463,7 +472,7 @@
     ),
     'temporary_files' => 
     array (
-      'local_path' => 'D:\\xampp\\htdocs\\price-survey\\storage\\framework/cache/laravel-excel',
+      'local_path' => 'D:\\xampp\\htdocs\\self-checker\\storage\\framework/cache/laravel-excel',
       'remote_disk' => NULL,
       'remote_prefix' => NULL,
       'force_resync_remote' => NULL,
@@ -477,12 +486,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\xampp\\htdocs\\price-survey\\storage\\app',
+        'root' => 'D:\\xampp\\htdocs\\self-checker\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\xampp\\htdocs\\price-survey\\storage\\app/public',
+        'root' => 'D:\\xampp\\htdocs\\self-checker\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -500,7 +509,7 @@
     ),
     'links' => 
     array (
-      'D:\\xampp\\htdocs\\price-survey\\public\\storage' => 'D:\\xampp\\htdocs\\price-survey\\storage\\app/public',
+      'D:\\xampp\\htdocs\\self-checker\\public\\storage' => 'D:\\xampp\\htdocs\\self-checker\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -523,7 +532,7 @@
   ),
   'jwt' => 
   array (
-    'secret' => 'xjxroZ8hyIzdpjkUQFhtNoTgYp3KATLsJh0FiDVAmZFOQWGquRj8fz0smX9jAiK4',
+    'secret' => 'HSXbagDwmLZTrX5kOIPHA3FF196T0L4qi4Gw1E7bb8JJIwaHPwivCvuUtTTKmKk5',
     'keys' => 
     array (
       'public' => NULL,
@@ -575,13 +584,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\xampp\\htdocs\\price-survey\\storage\\logs/laravel.log',
+        'path' => 'D:\\xampp\\htdocs\\self-checker\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\xampp\\htdocs\\price-survey\\storage\\logs/laravel.log',
+        'path' => 'D:\\xampp\\htdocs\\self-checker\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -632,7 +641,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\xampp\\htdocs\\price-survey\\storage\\logs/laravel.log',
+        'path' => 'D:\\xampp\\htdocs\\self-checker\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -698,7 +707,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\xampp\\htdocs\\price-survey\\resources\\views/vendor/mail',
+        0 => 'D:\\xampp\\htdocs\\self-checker\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -803,7 +812,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\xampp\\htdocs\\price-survey\\storage\\framework/sessions',
+    'files' => 'D:\\xampp\\htdocs\\self-checker\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -812,7 +821,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'price_survey_session',
+    'cookie' => 'selfchecker_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => NULL,
@@ -823,9 +832,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\xampp\\htdocs\\price-survey\\resources\\views',
+      0 => 'D:\\xampp\\htdocs\\self-checker\\resources\\views',
     ),
-    'compiled' => 'D:\\xampp\\htdocs\\price-survey\\storage\\framework\\views',
+    'compiled' => 'D:\\xampp\\htdocs\\self-checker\\storage\\framework\\views',
   ),
   'flare' => 
   array (

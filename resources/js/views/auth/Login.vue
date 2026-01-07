@@ -38,17 +38,17 @@ export default {
         }
     },
     mounted() {
-        document.title = 'Login | Price survey';
+        document.title = 'Login | Self Checker';
     },
     methods: {
         login(){
-            this.form.post('/api/dashboard-login').then((response)=>{
+            this.form.post('/api/login').then((response)=>{
                 if (response.data.status === 401){
                     this.$toaster.error('Userid or Password Not Match')
                 }else {
                     this.$store.commit('setToken',response.data.token);
                     this.$router.push({name : 'Dashboard'})
-                    window.location.href = '/price-survey/dashboard';
+                    window.location.href = '/self-checker/dashboard';
                     this.$toaster.success('Successfully Logged In')
                 }
             }).catch((error)=>{

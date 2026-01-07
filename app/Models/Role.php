@@ -9,8 +9,8 @@ class Role extends Model
 {
     use HasFactory;
 
-    protected $table = 'roles';
-    public $primaryKey = 'id';
+    protected $table = 'Roles';
+    public $primaryKey = 'RoleId';
     protected $guarded = [];
 
     const CREATED_AT = 'created_at';

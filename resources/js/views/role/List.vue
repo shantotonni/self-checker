@@ -39,7 +39,7 @@
                                         <tbody>
                                             <tr v-for="(role, i) in roles" :key="role.id" v-if="roles.length">
                                                 <th class="text-center" scope="row">{{ ++i }}</th>
-                                                <td class="text-left">{{ role.name }}</td>
+                                                <td class="text-left">{{ role.RoleName }}</td>
                                                 <td class="text-left">{{ role.created_at }}</td>
                                                 <td class="text-left">
                                                     <button @click="edit(role)" class="btn btn-success btn-sm"><i class="far fa-edit"></i></button>

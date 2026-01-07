@@ -20,7 +20,7 @@ export default {
             }).catch((error)=>{
                 if(error.response.data.status == 401){
                     localStorage.removeItem('token');
-                    window.location.href = '/harvester/login';
+                    window.location.href = '/self-checker/login';
                 }
             })
         }

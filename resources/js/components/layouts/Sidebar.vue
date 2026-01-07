@@ -4,14 +4,17 @@
             <div id="sidebar-menu">
                 <ul class="metismenu" id="side-menu">
                     <li class="menu-title">Main</li>
-
-                    <li>
-                        <router-link style="font-size: 12px" to="/price-survey/business-wise-product" class="waves-effect"><i class="ti-calendar"></i><span> Business Wise Product</span></router-link>
-                        <router-link style="font-size: 12px" to="/price-survey/mokam-list" class="waves-effect"><i class="ti-calendar"></i><span> Mokam</span></router-link>
-                        <router-link style="font-size: 12px" to="/price-survey/product-price-list" class="waves-effect"><i class="ti-calendar"></i><span> Product Price</span></router-link>
-                        <a style="font-size: 12px" href="#" class="waves-effect"><i class="ti-calendar"></i><span> Daily Food Price Report (R.P)</span></a>
-                        <a style="font-size: 12px" href="#" class="waves-effect"><i class="ti-calendar"></i><span> Daily Food Price Report (W.P)</span></a>
-                        <router-link style="font-size: 12px" to="/price-survey/survey-chart" class="waves-effect"><i class="ti-calendar"></i><span> Survey Chart</span></router-link>
+                    <li v-for="(menu,index) in getAllUserMenuForSidebar" :key="index">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i :class="menu.Icon"></i>
+                            <span>{{ menu.Name }}<span class="float-right menu-arrow"><i
+                                class="mdi mdi-chevron-right"></i></span></span>
+                        </a>
+                        <ul class="submenu">
+                            <li v-for="(submenu,subIndex) in menu.menu_item" :key="subIndex">
+                                <router-link :to="`/self-checker/${submenu.Link}`" ><i :class="submenu.Icon"></i> {{ submenu.Name }}</router-link>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -27,16 +30,16 @@ export default {
         }
     },
     mounted() {
-       setTimeout(()=>{
-           $("#side-menu").metisMenu();
-       },1000)
+        setTimeout(()=>{
+            $("#side-menu").metisMenu();
+        },1000)
 
-        //this.$store.dispatch('getAllUserMenu');
+        this.$store.dispatch('getAllUserMenu');
     },
     computed:{
-        // getAllUserMenuForSidebar(){
-        //     return this.$store.getters.getAllUserMenu;
-        // },
+        getAllUserMenuForSidebar(){
+            return this.$store.getters.getAllUserMenu;
+        },
     },
     methods:{
         //

@@ -28,9 +28,9 @@ import Swal from 'sweetalert2';
 window.Swal = Swal;
 
 // main origin
-Vue.prototype.mainOrigin = 'http://localhost:8080/price-survey/'
+Vue.prototype.mainOrigin = 'http://localhost:8080/self-checker/'
 
-axios.defaults.baseURL = window.location.origin + '/price-survey/';
+axios.defaults.baseURL = window.location.origin + '/self-checker/';
 
 import Toaster from 'v-toaster'
 import 'v-toaster/dist/v-toaster.css'

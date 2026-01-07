@@ -52,7 +52,7 @@
                                             <td class="text-left">{{ menu_item.MenuName }}</td>
                                             <td class="text-left">
                                                 <button @click="edit(menu_item)" class="btn btn-success btn-sm"><i class="far fa-edit"></i></button>
-<!--                                                <button @click="destroy(menu_item.Id)" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>-->
+                                                <button @click="destroy(menu_item.Id)" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
                                             </td>
                                         </tr>
                                         </tbody>

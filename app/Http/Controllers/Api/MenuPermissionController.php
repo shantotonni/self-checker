@@ -17,7 +17,7 @@ class MenuPermissionController extends Controller
             $item->select('Id', 'MenuID', 'Name');
         }])->orderBy('Order', 'asc')->get();
 
-        $data['usermenu'] = UserMenu::where('UserId', $userId)->pluck('MenuItemId');
+        $data['usermenu'] = UserMenu::where('UserCode', $userId)->pluck('MenuItemId');
 
         return response()->json([
             'data' =>$data
@@ -33,13 +33,13 @@ class MenuPermissionController extends Controller
             if ($value) array_push($sortedPerm, $key);
         }
 
-        $current = UserMenu::where('UserId', $userId)->pluck('MenuItemId')->toArray();
+        $current = UserMenu::where('UserCode', $userId)->pluck('MenuItemId')->toArray();
         $inserted = array_diff($sortedPerm, $current);
         foreach ($inserted as $item) {
-            UserMenu::create(['UserId' => $userId, 'MenuItemId' => $item]);
+            UserMenu::create(['UserCode' => $userId, 'MenuItemId' => $item]);
         }
         $remove = array_diff($current, $sortedPerm);
-        UserMenu::where('UserId', $userId)->whereIn('MenuItemId', $remove)->delete();
+        UserMenu::where('UserCode', $userId)->whereIn('MenuItemId', $remove)->delete();
 
         return response()->json(['message' => "Menu permissions updated Successfully"]);
     }
@@ -47,16 +47,16 @@ class MenuPermissionController extends Controller
     public function getSidebarAllUserMenu(){
         $user = JWTAuth::parseToken()->authenticate();
         $menuId = MenuItem::join('UserMenu', 'UserMenu.MenuItemId', 'MenuItem.Id')
-            ->where('UserMenu.UserId', $user->username)
+            ->where('UserMenu.UserCode', $user->UserCode)
             ->pluck('MenuItem.MenuID');
 
         $menuItemId = MenuItem::join('UserMenu', 'UserMenu.MenuItemId', 'MenuItem.Id')
-            ->where('UserMenu.UserId', $user->username)
+            ->where('UserMenu.UserCode', $user->UserCode)
             ->pluck('MenuItem.Id');
 
-        $menu = Menu::whereIn('MenuID', $menuId)->where('Status', 'Y')
+        $menu = Menu::whereIn('MenuID', $menuId)->where('Status', '1')
             ->orderBy('Order', 'asc')->with(['menuItem' => function ($item) use ($menuItemId) {
-                $item->whereIn('Id', $menuItemId)->where('Status', 'Y');
+                $item->whereIn('Id', $menuItemId)->where('Status', '1');
             }])->get();
         return response()->json(['user_menu'=> $menu],200);
     }

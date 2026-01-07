@@ -1,1 +1,1 @@
-export const baseurl = "/price-survey/";
+export const baseurl = "/self-checker/";

@@ -24,7 +24,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Jo3mBNJ4kJTi8rsx',
+            '_route' => 'generated::KrPjzudQJjq6Tmyb',
           ),
           1 => NULL,
           2 => 
@@ -44,83 +44,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::7yqfpVtVN97YMr12',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/mobile-sign-up' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::JPehrIEU4Gph55ku',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/customer-send-otp' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::1OZkcDtzLseH7FAU',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/customer-reset-password' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::vk1msliHLM9ZLG2Y',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/dashboard-login' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::4YfnkpEZrquhSBkB',
+            '_route' => 'generated::Aru9XkDnddSAYUII',
           ),
           1 => NULL,
           2 => 
@@ -139,7 +63,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::9ywfxPDra4ZJr6B1',
+            '_route' => 'generated::fasvG2g8IkNABpDi',
           ),
           1 => NULL,
           2 => 
@@ -158,70 +82,13 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::xekUvAYar3XVZhqA',
+            '_route' => 'generated::vLpyYkTjpT1hEyIS',
           ),
           1 => NULL,
           2 => 
           array (
             'GET' => 0,
             'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-districts' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::t3vembQH8u8mSyZK',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-upazilla-mokam-by-district' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::qJ9KpHfch33cZFxM',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-district-wise-daily-food-price-report' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::BiWcwXVfMSIOESCL',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
           ),
           3 => NULL,
           4 => false,
@@ -271,7 +138,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::AeD93H94OerexjXo',
+            '_route' => 'generated::sKHDpyfavqtV59Kw',
           ),
           1 => NULL,
           2 => 
@@ -291,7 +158,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ZK1P47WbZXNan6q9',
+            '_route' => 'generated::7UKeITOLfw2QWEKm',
           ),
           1 => NULL,
           2 => 
@@ -311,7 +178,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::joieakj5xwEMn4MW',
+            '_route' => 'generated::HztwrENqXGGYvfON',
           ),
           1 => NULL,
           2 => 
@@ -366,7 +233,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::MlTDVK8P41zbZZ8r',
+            '_route' => 'generated::eJTIKBjcER19GAeb',
           ),
           1 => NULL,
           2 => 
@@ -386,7 +253,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::bKOmC3g1IU87kc41',
+            '_route' => 'generated::85ZhA54z1wbkR6Q7',
           ),
           1 => NULL,
           2 => 
@@ -406,43 +273,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ZnKxcvWluJW8FL7I',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/customer' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customer.index',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customer.store',
+            '_route' => 'generated::vnTfavwykaEDriZ5',
           ),
           1 => NULL,
           2 => 
@@ -491,552 +322,341 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/api/outlets/active' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::CWDMwEHcMphWAgn7',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlets/test-connection' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::3bRrl2O2a1CrEcsf',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlets' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Zm2E8rS9gGYVvVZ3',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::9sVcdOzJqPM8EFBG',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-configurations' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::2q5JcNGeJ2wzWgq4',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::ZRdsw3p1Nkzj3rTq',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-configurations/stats/pending-count' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::atJDg6s3e6fyl6fK',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-connection/test' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::wnlXzAdRmojAKmYC',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-connection/set-session' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Nx9gqeEY7Oqrf5eb',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-connection/get-session' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::jsWGtKwOSYxOi8r1',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-connection/clear-session' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::72lFi8Xr970Nyxjg',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-connection/execute' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::IPjGYnPJhi1UijcG',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-session/switch' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::OiCyZQA5IzCGIdjG',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-session/test' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::EKiH968FAXDFFxTs',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-session/current' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Zd4X0koisV9fjoc5',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-session/clear' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::IxTydSRs6IAPuATy',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/api/outlet-session/execute' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::j3VR70BLMRMX7OH2',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/api/change-password' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::iNvIlSZKiV8YWDvB',
+            '_route' => 'generated::BmuY710vAAwxs1og',
           ),
           1 => NULL,
           2 => 
           array (
             'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-brand' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::xUr8F64e2b9PodIH',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-district-by-area' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::01gH9jt6pmdmsaBQ',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-admin-dashboard-data' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::J0xFdPRjMJuvJKkw',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/showroom-list' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'showroom-list.index',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'showroom-list.store',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/dealer-list' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'dealer-list.index',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'dealer-list.store',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/business-products' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::aeWwyO7N2gegzavG',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::kFVBv9E895euYNK8',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/business-products/businesses' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::W1A8VOSJgSnsoTmD',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/mokams' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::RyjTPtWBSieK2YBd',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::oqBani60lgK8cUIS',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/mokams/districts' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::51gAx06MpyqbgphV',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/product-prices' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::QbyQKUGKyX9Od5yd',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::JKrPvQe5aSr5GfQP',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/product-prices/products' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::5qymLbDikBv463Ou',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/product-prices/locations' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::tWYuU6E1DthCPqQB',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-problem-section' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::yIJW0C144M2klKyb',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-harvester-cost' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::3Y1XQ3euikwCWEUj',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/customer-service-request' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::nrWP5JnCLhN9nXLZ',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-all-customer-service-request' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::oNk8SvOKNhGX3dpw',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/auth/profile-update' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::eIK21wJvWjlfGmW9',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/customer-password-change' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::GFIcoh0KszFybEpB',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/harvester-warranty-parts' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::ErkEeiiBVtH6H0Tf',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/harvester-smart-assist' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::tsh0XSROmEZGT5xg',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-customer-profile' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::nxCLW04p3SIqC56U',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/customer-feedback' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::SK1Q36yHJUpZxOor',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/api/get-harvester-warranty' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::lf75sFRyJ5LBjDNR',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
           ),
           3 => NULL,
           4 => false,
@@ -1047,7 +667,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/api/(?|user/([^/]++)(?|(*:31))|s(?|earch/(?|user/([^/]++)(*:65)|menu/([^/]++)(*:85)|customer/([^/]++)(*:109)|role/([^/]++)(*:130)|showroom\\-list/([^/]++)(*:161)|dealer\\-list/([^/]++)(*:190))|howroom\\-list/([^/]++)(?|(*:224)))|m(?|enu/([^/]++)(?|(*:253))|okams/(?|search/([^/]++)(*:286)|([^/]++)(?|(*:305)|/toggle\\-status(*:328)|(*:336))))|get\\-user\\-menu\\-details/([^/]++)(*:380)|customer/([^/]++)(?|(*:408))|role/([^/]++)(?|(*:433))|dealer\\-list/([^/]++)(?|(*:466))|business\\-products/(?|search/([^/]++)(*:512)|([^/]++)(?|(*:531)|/toggle\\-status(*:554)|(*:562)))|product\\-prices/(?|search/([^/]++)(*:606)|([^/]++)(?|/history(*:633)|(*:641))|bulk\\-update(*:662)|([^/]++)(?|(*:681))))|/(.*)?(*:698))/?$}sDu',
+      0 => '{^(?|/api/(?|user/([^/]++)(?|(*:31))|search/(?|user/([^/]++)(*:62)|menu/([^/]++)(*:82)|role/([^/]++)(*:102))|menu/([^/]++)(?|(*:127))|get\\-user\\-menu\\-details/([^/]++)(*:169)|role/([^/]++)(?|(*:193))|outlet(?|s/(?|search/([^/]++)(*:231)|([^/]++)(?|(*:250)))|\\-configurations/(?|([^/]++)(?|(*:291))|search/([^/]++)(*:315)|test\\-connection(*:339)|([^/]++)/(?|execute(*:366)|retry(*:379))|bulk\\-execute(*:401)|status/([^/]++)(*:424))))|/(.*)?(*:441))/?$}sDu',
     ),
     3 => 
     array (
@@ -1113,13 +733,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      65 => 
+      62 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::btxsw9OqHmfvRU7b',
+            '_route' => 'generated::VdTOowix2ZjIjtXl',
           ),
           1 => 
           array (
@@ -1136,13 +756,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      85 => 
+      82 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::JFEZOY6EMcBbkHjS',
+            '_route' => 'generated::7NLWaHkemLodmUuN',
           ),
           1 => 
           array (
@@ -1159,13 +779,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      109 => 
+      102 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::JmPKh4m8YA0D2ANr',
+            '_route' => 'generated::EQKCvzwauRBJCWJm',
           ),
           1 => 
           array (
@@ -1182,138 +802,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      130 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::imCHcfCmvFZowZim',
-          ),
-          1 => 
-          array (
-            0 => 'query',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      161 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::iy3AKFq5kGAmWoZL',
-          ),
-          1 => 
-          array (
-            0 => 'query',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      190 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::1X6SFcAJFRWaN6Yd',
-          ),
-          1 => 
-          array (
-            0 => 'query',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      224 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'showroom-list.show',
-          ),
-          1 => 
-          array (
-            0 => 'showroom_list',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'showroom-list.update',
-          ),
-          1 => 
-          array (
-            0 => 'showroom_list',
-          ),
-          2 => 
-          array (
-            'PUT' => 0,
-            'PATCH' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'showroom-list.destroy',
-          ),
-          1 => 
-          array (
-            0 => 'showroom_list',
-          ),
-          2 => 
-          array (
-            'DELETE' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      253 => 
+      127 => 
       array (
         0 => 
         array (
@@ -1375,122 +864,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      286 => 
+      169 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::Y18XP3JqswxNPOVW',
-          ),
-          1 => 
-          array (
-            0 => 'query',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      305 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::73A62cgiQcfOxUTu',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::ekX6IPmfO5s5Y93M',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'PUT' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      328 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::yMGzrfW8BMV14aFm',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'PATCH' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      336 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::8PgDTfPLz7U4bMam',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'DELETE' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      380 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::zqugXN16kZdrQpUR',
+            '_route' => 'generated::eo1wL7mELfgEBEzo',
           ),
           1 => 
           array (
@@ -1507,69 +887,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      408 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customer.show',
-          ),
-          1 => 
-          array (
-            0 => 'customer',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customer.update',
-          ),
-          1 => 
-          array (
-            0 => 'customer',
-          ),
-          2 => 
-          array (
-            'PUT' => 0,
-            'PATCH' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customer.destroy',
-          ),
-          1 => 
-          array (
-            0 => 'customer',
-          ),
-          2 => 
-          array (
-            'DELETE' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      433 => 
+      193 => 
       array (
         0 => 
         array (
@@ -1631,17 +949,40 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      466 => 
+      231 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'dealer-list.show',
+            '_route' => 'generated::o2Q9ZmxlbeHoHHbO',
           ),
           1 => 
           array (
-            0 => 'dealer_list',
+            0 => 'query',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      250 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::9n44dMvqhe6qzgrA',
+          ),
+          1 => 
+          array (
+            0 => 'outlet',
           ),
           2 => 
           array (
@@ -1657,16 +998,15 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'dealer-list.update',
+            '_route' => 'generated::0KLhbOozRA2ZfqDd',
           ),
           1 => 
           array (
-            0 => 'dealer_list',
+            0 => 'outlet',
           ),
           2 => 
           array (
             'PUT' => 0,
-            'PATCH' => 1,
           ),
           3 => NULL,
           4 => false,
@@ -1677,11 +1017,11 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'dealer-list.destroy',
+            '_route' => 'generated::j9MW0GGr3TVfkZ7F',
           ),
           1 => 
           array (
-            0 => 'dealer_list',
+            0 => 'outlet',
           ),
           2 => 
           array (
@@ -1693,40 +1033,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      512 => 
+      291 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::S2uiX2RkQw7dNhOW',
+            '_route' => 'generated::iMUEc77w9VNjrfl8',
           ),
           1 => 
           array (
-            0 => 'query',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      531 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::g5EQViaPwB16dzO4',
-          ),
-          1 => 
-          array (
-            0 => 'id',
+            0 => 'outletConfiguration',
           ),
           2 => 
           array (
@@ -1742,11 +1059,11 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::TcLIfXSHLP5LLh1K',
+            '_route' => 'generated::RjmxlBD9fIpt4bYc',
           ),
           1 => 
           array (
-            0 => 'id',
+            0 => 'outletConfiguration',
           ),
           2 => 
           array (
@@ -1757,40 +1074,15 @@ app('router')->setCompiledRoutes(
           5 => true,
           6 => NULL,
         ),
-      ),
-      554 => 
-      array (
-        0 => 
+        2 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::43z5SWlEBAFq7Kui',
+            '_route' => 'generated::vhSyiiWocGk9566s',
           ),
           1 => 
           array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'PATCH' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      562 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::lf6S8fhKS65bbZbU',
-          ),
-          1 => 
-          array (
-            0 => 'id',
+            0 => 'outletConfiguration',
           ),
           2 => 
           array (
@@ -1802,13 +1094,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      606 => 
+      315 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::Lu5oqyU5Uj2jGKSf',
+            '_route' => 'generated::wXwhcNWmenVbmW8C',
           ),
           1 => 
           array (
@@ -1825,59 +1117,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      633 => 
+      339 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::9OGxi831B1S5wCzH',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      641 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::DJYd8iOcT4IOfr0i',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      662 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'generated::D2YaC58utomvZJR3',
+            '_route' => 'generated::69GOCKt3d2RxTZVn',
           ),
           1 => 
           array (
@@ -1892,40 +1138,87 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      681 => 
+      366 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::6DfNMXS91mwPV4MY',
+            '_route' => 'generated::vwVC9qNCeSjrYA0W',
           ),
           1 => 
           array (
-            0 => 'id',
+            0 => 'outletConfiguration',
           ),
           2 => 
           array (
-            'PUT' => 0,
+            'POST' => 0,
           ),
           3 => NULL,
           4 => false,
-          5 => true,
+          5 => false,
           6 => NULL,
         ),
-        1 => 
+      ),
+      379 => 
+      array (
+        0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::yXFrajnns6of0WIT',
+            '_route' => 'generated::Ux8pYtwyJ58c419g',
           ),
           1 => 
           array (
-            0 => 'id',
+            0 => 'outletConfiguration',
           ),
           2 => 
           array (
-            'DELETE' => 0,
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      401 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::ieHZkoZkZATVZDGD',
+          ),
+          1 => 
+          array (
+          ),
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      424 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Em81Y0cftHZlwFub',
+          ),
+          1 => 
+          array (
+            0 => 'status',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
           ),
           3 => NULL,
           4 => false,
@@ -1933,13 +1226,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      698 => 
+      441 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::t9cF1zKyLEGahaSO',
+            '_route' => 'generated::BQpwEhtYF37W2jzU',
             'app' => NULL,
           ),
           1 => 
@@ -1972,7 +1265,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::Jo3mBNJ4kJTi8rsx' => 
+    'generated::KrPjzudQJjq6Tmyb' => 
     array (
       'methods' => 
       array (
@@ -1993,7 +1286,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'as' => 'generated::Jo3mBNJ4kJTi8rsx',
+        'as' => 'generated::KrPjzudQJjq6Tmyb',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2009,7 +1302,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::7yqfpVtVN97YMr12' => 
+    'generated::Aru9XkDnddSAYUII' => 
     array (
       'methods' => 
       array (
@@ -2029,7 +1322,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::7yqfpVtVN97YMr12',
+        'as' => 'generated::Aru9XkDnddSAYUII',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2045,151 +1338,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::JPehrIEU4Gph55ku' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/mobile-sign-up',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\AuthController@mobileSignUp',
-        'controller' => 'App\\Http\\Controllers\\AuthController@mobileSignUp',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::JPehrIEU4Gph55ku',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::1OZkcDtzLseH7FAU' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/customer-send-otp',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\AuthController@sendOtp',
-        'controller' => 'App\\Http\\Controllers\\AuthController@sendOtp',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::1OZkcDtzLseH7FAU',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::vk1msliHLM9ZLG2Y' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/customer-reset-password',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\AuthController@resetPasswordWithOtp',
-        'controller' => 'App\\Http\\Controllers\\AuthController@resetPasswordWithOtp',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::vk1msliHLM9ZLG2Y',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::4YfnkpEZrquhSBkB' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/dashboard-login',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\CustomerAuthController@dashboardLogin',
-        'controller' => 'App\\Http\\Controllers\\CustomerAuthController@dashboardLogin',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::4YfnkpEZrquhSBkB',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::9ywfxPDra4ZJr6B1' => 
+    'generated::fasvG2g8IkNABpDi' => 
     array (
       'methods' => 
       array (
@@ -2210,7 +1359,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::9ywfxPDra4ZJr6B1',
+        'as' => 'generated::fasvG2g8IkNABpDi',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2226,7 +1375,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::xekUvAYar3XVZhqA' => 
+    'generated::vLpyYkTjpT1hEyIS' => 
     array (
       'methods' => 
       array (
@@ -2248,118 +1397,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::xekUvAYar3XVZhqA',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::t3vembQH8u8mSyZK' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/get-all-districts',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllDistricts',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllDistricts',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::t3vembQH8u8mSyZK',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::qJ9KpHfch33cZFxM' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/get-all-upazilla-mokam-by-district',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllUpazillaMokamByDistricts',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllUpazillaMokamByDistricts',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::qJ9KpHfch33cZFxM',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::BiWcwXVfMSIOESCL' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/get-district-wise-daily-food-price-report',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\ReportController@getDistrictWiseDailyFoodPriceReport',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\ReportController@getDistrictWiseDailyFoodPriceReport',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::BiWcwXVfMSIOESCL',
+        'as' => 'generated::vLpyYkTjpT1hEyIS',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2563,7 +1601,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::btxsw9OqHmfvRU7b' => 
+    'generated::VdTOowix2ZjIjtXl' => 
     array (
       'methods' => 
       array (
@@ -2585,7 +1623,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::btxsw9OqHmfvRU7b',
+        'as' => 'generated::VdTOowix2ZjIjtXl',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2601,7 +1639,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::AeD93H94OerexjXo' => 
+    'generated::sKHDpyfavqtV59Kw' => 
     array (
       'methods' => 
       array (
@@ -2623,7 +1661,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::AeD93H94OerexjXo',
+        'as' => 'generated::sKHDpyfavqtV59Kw',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2639,7 +1677,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ZK1P47WbZXNan6q9' => 
+    'generated::7UKeITOLfw2QWEKm' => 
     array (
       'methods' => 
       array (
@@ -2661,7 +1699,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::ZK1P47WbZXNan6q9',
+        'as' => 'generated::7UKeITOLfw2QWEKm',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2677,7 +1715,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::joieakj5xwEMn4MW' => 
+    'generated::HztwrENqXGGYvfON' => 
     array (
       'methods' => 
       array (
@@ -2698,7 +1736,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::joieakj5xwEMn4MW',
+        'as' => 'generated::HztwrENqXGGYvfON',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2902,7 +1940,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::JFEZOY6EMcBbkHjS' => 
+    'generated::7NLWaHkemLodmUuN' => 
     array (
       'methods' => 
       array (
@@ -2924,7 +1962,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::JFEZOY6EMcBbkHjS',
+        'as' => 'generated::7NLWaHkemLodmUuN',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2940,7 +1978,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::MlTDVK8P41zbZZ8r' => 
+    'generated::eJTIKBjcER19GAeb' => 
     array (
       'methods' => 
       array (
@@ -2962,7 +2000,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::MlTDVK8P41zbZZ8r',
+        'as' => 'generated::eJTIKBjcER19GAeb',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2978,7 +2016,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::zqugXN16kZdrQpUR' => 
+    'generated::eo1wL7mELfgEBEzo' => 
     array (
       'methods' => 
       array (
@@ -3000,7 +2038,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::zqugXN16kZdrQpUR',
+        'as' => 'generated::eo1wL7mELfgEBEzo',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3016,7 +2054,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::bKOmC3g1IU87kc41' => 
+    'generated::85ZhA54z1wbkR6Q7' => 
     array (
       'methods' => 
       array (
@@ -3038,7 +2076,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::bKOmC3g1IU87kc41',
+        'as' => 'generated::85ZhA54z1wbkR6Q7',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3054,7 +2092,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ZnKxcvWluJW8FL7I' => 
+    'generated::vnTfavwykaEDriZ5' => 
     array (
       'methods' => 
       array (
@@ -3075,233 +2113,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::ZnKxcvWluJW8FL7I',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customer.index' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/customer',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'customer.index',
-        'uses' => 'App\\Http\\Controllers\\Api\\CustomerController@index',
-        'controller' => 'App\\Http\\Controllers\\Api\\CustomerController@index',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customer.store' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/customer',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'customer.store',
-        'uses' => 'App\\Http\\Controllers\\Api\\CustomerController@store',
-        'controller' => 'App\\Http\\Controllers\\Api\\CustomerController@store',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customer.show' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/customer/{customer}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'customer.show',
-        'uses' => 'App\\Http\\Controllers\\Api\\CustomerController@show',
-        'controller' => 'App\\Http\\Controllers\\Api\\CustomerController@show',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customer.update' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-        1 => 'PATCH',
-      ),
-      'uri' => 'api/customer/{customer}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'customer.update',
-        'uses' => 'App\\Http\\Controllers\\Api\\CustomerController@update',
-        'controller' => 'App\\Http\\Controllers\\Api\\CustomerController@update',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customer.destroy' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'api/customer/{customer}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'customer.destroy',
-        'uses' => 'App\\Http\\Controllers\\Api\\CustomerController@destroy',
-        'controller' => 'App\\Http\\Controllers\\Api\\CustomerController@destroy',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::JmPKh4m8YA0D2ANr' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/search/customer/{query}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\CustomerController@search',
-        'controller' => 'App\\Http\\Controllers\\Api\\CustomerController@search',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::JmPKh4m8YA0D2ANr',
+        'as' => 'generated::vnTfavwykaEDriZ5',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3505,7 +2317,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::imCHcfCmvFZowZim' => 
+    'generated::EQKCvzwauRBJCWJm' => 
     array (
       'methods' => 
       array (
@@ -3527,7 +2339,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::imCHcfCmvFZowZim',
+        'as' => 'generated::EQKCvzwauRBJCWJm',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3543,7 +2355,1128 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::iNvIlSZKiV8YWDvB' => 
+    'generated::CWDMwEHcMphWAgn7' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlets/active',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@getActiveOutlets',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@getActiveOutlets',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::CWDMwEHcMphWAgn7',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::o2Q9ZmxlbeHoHHbO' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlets/search/{query}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@search',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@search',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::o2Q9ZmxlbeHoHHbO',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::3bRrl2O2a1CrEcsf' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlets/test-connection',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@testConnection',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@testConnection',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::3bRrl2O2a1CrEcsf',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::Zm2E8rS9gGYVvVZ3' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlets',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@index',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@index',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Zm2E8rS9gGYVvVZ3',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::9sVcdOzJqPM8EFBG' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlets',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@store',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@store',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::9sVcdOzJqPM8EFBG',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::9n44dMvqhe6qzgrA' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlets/{outlet}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@show',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@show',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::9n44dMvqhe6qzgrA',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::0KLhbOozRA2ZfqDd' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+      ),
+      'uri' => 'api/outlets/{outlet}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@update',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@update',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::0KLhbOozRA2ZfqDd',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::j9MW0GGr3TVfkZ7F' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'api/outlets/{outlet}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletController@destroy',
+        'namespace' => NULL,
+        'prefix' => 'api/outlets',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::j9MW0GGr3TVfkZ7F',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::2q5JcNGeJ2wzWgq4' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-configurations',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@index',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@index',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::2q5JcNGeJ2wzWgq4',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::ZRdsw3p1Nkzj3rTq' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-configurations',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@store',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@store',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::ZRdsw3p1Nkzj3rTq',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::iMUEc77w9VNjrfl8' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-configurations/{outletConfiguration}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@show',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@show',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::iMUEc77w9VNjrfl8',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::RjmxlBD9fIpt4bYc' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+      ),
+      'uri' => 'api/outlet-configurations/{outletConfiguration}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@update',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@update',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::RjmxlBD9fIpt4bYc',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::vhSyiiWocGk9566s' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'api/outlet-configurations/{outletConfiguration}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@destroy',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::vhSyiiWocGk9566s',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::wXwhcNWmenVbmW8C' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-configurations/search/{query}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@search',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@search',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::wXwhcNWmenVbmW8C',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::69GOCKt3d2RxTZVn' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-configurations/test-connection',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@testConnection',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@testConnection',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::69GOCKt3d2RxTZVn',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::vwVC9qNCeSjrYA0W' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-configurations/{outletConfiguration}/execute',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@execute',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@execute',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::vwVC9qNCeSjrYA0W',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::Ux8pYtwyJ58c419g' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-configurations/{outletConfiguration}/retry',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@retry',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@retry',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Ux8pYtwyJ58c419g',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::ieHZkoZkZATVZDGD' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-configurations/bulk-execute',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@bulkExecute',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@bulkExecute',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::ieHZkoZkZATVZDGD',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::atJDg6s3e6fyl6fK' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-configurations/stats/pending-count',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@getPendingCount',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@getPendingCount',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::atJDg6s3e6fyl6fK',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::Em81Y0cftHZlwFub' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-configurations/status/{status}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@getByStatus',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConfigurationController@getByStatus',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-configurations',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Em81Y0cftHZlwFub',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::wnlXzAdRmojAKmYC' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-connection/test',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@testConnection',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@testConnection',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-connection',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::wnlXzAdRmojAKmYC',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::Nx9gqeEY7Oqrf5eb' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-connection/set-session',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@setSession',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@setSession',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-connection',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Nx9gqeEY7Oqrf5eb',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::jsWGtKwOSYxOi8r1' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-connection/get-session',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@getSession',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@getSession',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-connection',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::jsWGtKwOSYxOi8r1',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::72lFi8Xr970Nyxjg' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-connection/clear-session',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@clearSession',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@clearSession',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-connection',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::72lFi8Xr970Nyxjg',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::IPjGYnPJhi1UijcG' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-connection/execute',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@executeOnSession',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletConnectionController@executeOnSession',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-connection',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::IPjGYnPJhi1UijcG',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::OiCyZQA5IzCGIdjG' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-session/switch',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletSessionController@switch',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletSessionController@switch',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-session',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::OiCyZQA5IzCGIdjG',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::EKiH968FAXDFFxTs' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-session/test',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletSessionController@test',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletSessionController@test',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-session',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::EKiH968FAXDFFxTs',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::Zd4X0koisV9fjoc5' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'api/outlet-session/current',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletSessionController@current',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletSessionController@current',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-session',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::Zd4X0koisV9fjoc5',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::IxTydSRs6IAPuATy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-session/clear',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletSessionController@clear',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletSessionController@clear',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-session',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::IxTydSRs6IAPuATy',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::j3VR70BLMRMX7OH2' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'api/outlet-session/execute',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+          1 => 'jwtauth:api',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Api\\OutletSessionController@execute',
+        'controller' => 'App\\Http\\Controllers\\Api\\OutletSessionController@execute',
+        'namespace' => NULL,
+        'prefix' => 'api/outlet-session',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::j3VR70BLMRMX7OH2',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::BmuY710vAAwxs1og' => 
     array (
       'methods' => 
       array (
@@ -3564,7 +3497,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::iNvIlSZKiV8YWDvB',
+        'as' => 'generated::BmuY710vAAwxs1og',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3580,1961 +3513,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::xUr8F64e2b9PodIH' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-all-brand',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllBrand',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllBrand',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::xUr8F64e2b9PodIH',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::01gH9jt6pmdmsaBQ' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-all-district-by-area',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllDistrictByArea',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllDistrictByArea',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::01gH9jt6pmdmsaBQ',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::J0xFdPRjMJuvJKkw' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-all-admin-dashboard-data',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\AdminDashboardController@getAdminDashboardAllData',
-        'controller' => 'App\\Http\\Controllers\\Api\\AdminDashboardController@getAdminDashboardAllData',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::J0xFdPRjMJuvJKkw',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'showroom-list.index' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/showroom-list',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'showroom-list.index',
-        'uses' => 'App\\Http\\Controllers\\Api\\ShowroomController@index',
-        'controller' => 'App\\Http\\Controllers\\Api\\ShowroomController@index',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'showroom-list.store' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/showroom-list',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'showroom-list.store',
-        'uses' => 'App\\Http\\Controllers\\Api\\ShowroomController@store',
-        'controller' => 'App\\Http\\Controllers\\Api\\ShowroomController@store',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'showroom-list.show' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/showroom-list/{showroom_list}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'showroom-list.show',
-        'uses' => 'App\\Http\\Controllers\\Api\\ShowroomController@show',
-        'controller' => 'App\\Http\\Controllers\\Api\\ShowroomController@show',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'showroom-list.update' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-        1 => 'PATCH',
-      ),
-      'uri' => 'api/showroom-list/{showroom_list}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'showroom-list.update',
-        'uses' => 'App\\Http\\Controllers\\Api\\ShowroomController@update',
-        'controller' => 'App\\Http\\Controllers\\Api\\ShowroomController@update',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'showroom-list.destroy' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'api/showroom-list/{showroom_list}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'showroom-list.destroy',
-        'uses' => 'App\\Http\\Controllers\\Api\\ShowroomController@destroy',
-        'controller' => 'App\\Http\\Controllers\\Api\\ShowroomController@destroy',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::iy3AKFq5kGAmWoZL' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/search/showroom-list/{query}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\ShowroomController@search',
-        'controller' => 'App\\Http\\Controllers\\Api\\ShowroomController@search',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::iy3AKFq5kGAmWoZL',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'dealer-list.index' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/dealer-list',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'dealer-list.index',
-        'uses' => 'App\\Http\\Controllers\\Api\\DealerController@index',
-        'controller' => 'App\\Http\\Controllers\\Api\\DealerController@index',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'dealer-list.store' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/dealer-list',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'dealer-list.store',
-        'uses' => 'App\\Http\\Controllers\\Api\\DealerController@store',
-        'controller' => 'App\\Http\\Controllers\\Api\\DealerController@store',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'dealer-list.show' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/dealer-list/{dealer_list}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'dealer-list.show',
-        'uses' => 'App\\Http\\Controllers\\Api\\DealerController@show',
-        'controller' => 'App\\Http\\Controllers\\Api\\DealerController@show',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'dealer-list.update' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-        1 => 'PATCH',
-      ),
-      'uri' => 'api/dealer-list/{dealer_list}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'dealer-list.update',
-        'uses' => 'App\\Http\\Controllers\\Api\\DealerController@update',
-        'controller' => 'App\\Http\\Controllers\\Api\\DealerController@update',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'dealer-list.destroy' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'api/dealer-list/{dealer_list}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'as' => 'dealer-list.destroy',
-        'uses' => 'App\\Http\\Controllers\\Api\\DealerController@destroy',
-        'controller' => 'App\\Http\\Controllers\\Api\\DealerController@destroy',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::1X6SFcAJFRWaN6Yd' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/search/dealer-list/{query}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\DealerController@search',
-        'controller' => 'App\\Http\\Controllers\\Api\\DealerController@search',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::1X6SFcAJFRWaN6Yd',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::aeWwyO7N2gegzavG' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/business-products',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@index',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@index',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::aeWwyO7N2gegzavG',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::S2uiX2RkQw7dNhOW' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/business-products/search/{query}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@search',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@search',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::S2uiX2RkQw7dNhOW',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::W1A8VOSJgSnsoTmD' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/business-products/businesses',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@getBusinesses',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@getBusinesses',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::W1A8VOSJgSnsoTmD',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::g5EQViaPwB16dzO4' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/business-products/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@show',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@show',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::g5EQViaPwB16dzO4',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::kFVBv9E895euYNK8' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/business-products',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@store',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@store',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::kFVBv9E895euYNK8',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::TcLIfXSHLP5LLh1K' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-      ),
-      'uri' => 'api/business-products/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@update',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@update',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::TcLIfXSHLP5LLh1K',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::43z5SWlEBAFq7Kui' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PATCH',
-      ),
-      'uri' => 'api/business-products/{id}/toggle-status',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@toggleStatus',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@toggleStatus',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::43z5SWlEBAFq7Kui',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::lf6S8fhKS65bbZbU' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'api/business-products/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\BusinessProductController@destroy',
-        'controller' => 'App\\Http\\Controllers\\BusinessProductController@destroy',
-        'namespace' => NULL,
-        'prefix' => 'api/business-products',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::lf6S8fhKS65bbZbU',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::RyjTPtWBSieK2YBd' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/mokams',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@index',
-        'controller' => 'App\\Http\\Controllers\\MokamController@index',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::RyjTPtWBSieK2YBd',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::Y18XP3JqswxNPOVW' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/mokams/search/{query}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@search',
-        'controller' => 'App\\Http\\Controllers\\MokamController@search',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::Y18XP3JqswxNPOVW',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::51gAx06MpyqbgphV' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/mokams/districts',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@getDistricts',
-        'controller' => 'App\\Http\\Controllers\\MokamController@getDistricts',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::51gAx06MpyqbgphV',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::73A62cgiQcfOxUTu' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/mokams/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@show',
-        'controller' => 'App\\Http\\Controllers\\MokamController@show',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::73A62cgiQcfOxUTu',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::oqBani60lgK8cUIS' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/mokams',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@store',
-        'controller' => 'App\\Http\\Controllers\\MokamController@store',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::oqBani60lgK8cUIS',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::ekX6IPmfO5s5Y93M' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-      ),
-      'uri' => 'api/mokams/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@update',
-        'controller' => 'App\\Http\\Controllers\\MokamController@update',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::ekX6IPmfO5s5Y93M',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::yMGzrfW8BMV14aFm' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PATCH',
-      ),
-      'uri' => 'api/mokams/{id}/toggle-status',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@toggleStatus',
-        'controller' => 'App\\Http\\Controllers\\MokamController@toggleStatus',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::yMGzrfW8BMV14aFm',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::8PgDTfPLz7U4bMam' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'api/mokams/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\MokamController@destroy',
-        'controller' => 'App\\Http\\Controllers\\MokamController@destroy',
-        'namespace' => NULL,
-        'prefix' => 'api/mokams',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::8PgDTfPLz7U4bMam',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::QbyQKUGKyX9Od5yd' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/product-prices',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@index',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@index',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::QbyQKUGKyX9Od5yd',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::Lu5oqyU5Uj2jGKSf' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/product-prices/search/{query}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@search',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@search',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::Lu5oqyU5Uj2jGKSf',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::5qymLbDikBv463Ou' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/product-prices/products',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@getProducts',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@getProducts',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::5qymLbDikBv463Ou',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::tWYuU6E1DthCPqQB' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/product-prices/locations',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@getLocations',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@getLocations',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::tWYuU6E1DthCPqQB',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::9OGxi831B1S5wCzH' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/product-prices/{id}/history',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@history',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@history',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::9OGxi831B1S5wCzH',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::DJYd8iOcT4IOfr0i' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/product-prices/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@show',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@show',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::DJYd8iOcT4IOfr0i',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::JKrPvQe5aSr5GfQP' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/product-prices',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@store',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@store',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::JKrPvQe5aSr5GfQP',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::D2YaC58utomvZJR3' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/product-prices/bulk-update',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@bulkUpdate',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@bulkUpdate',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::D2YaC58utomvZJR3',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::6DfNMXS91mwPV4MY' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-      ),
-      'uri' => 'api/product-prices/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@update',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@update',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::6DfNMXS91mwPV4MY',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::yXFrajnns6of0WIT' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'api/product-prices/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'jwtauth:api',
-        ),
-        'uses' => 'App\\Http\\Controllers\\ProductPriceController@destroy',
-        'controller' => 'App\\Http\\Controllers\\ProductPriceController@destroy',
-        'namespace' => NULL,
-        'prefix' => 'api/product-prices',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::yXFrajnns6of0WIT',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::yIJW0C144M2klKyb' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-all-problem-section',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllProblemSection',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllProblemSection',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::yIJW0C144M2klKyb',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::3Y1XQ3euikwCWEUj' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-all-harvester-cost',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllHarvesterCost',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CommonController@getAllHarvesterCost',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::3Y1XQ3euikwCWEUj',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::nrWP5JnCLhN9nXLZ' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/customer-service-request',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\ServiceRequestController@customerServiceRequest',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\ServiceRequestController@customerServiceRequest',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::nrWP5JnCLhN9nXLZ',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::oNk8SvOKNhGX3dpw' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-all-customer-service-request',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\ServiceRequestController@getAllCustomerServiceRequest',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\ServiceRequestController@getAllCustomerServiceRequest',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::oNk8SvOKNhGX3dpw',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::eIK21wJvWjlfGmW9' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/auth/profile-update',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\CustomerAuthController@updateProfileMobile',
-        'controller' => 'App\\Http\\Controllers\\CustomerAuthController@updateProfileMobile',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::eIK21wJvWjlfGmW9',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::GFIcoh0KszFybEpB' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/customer-password-change',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\CustomerAuthController@changePassword',
-        'controller' => 'App\\Http\\Controllers\\CustomerAuthController@changePassword',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::GFIcoh0KszFybEpB',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::ErkEeiiBVtH6H0Tf' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/harvester-warranty-parts',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@warrantyParts',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@warrantyParts',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::ErkEeiiBVtH6H0Tf',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::tsh0XSROmEZGT5xg' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/harvester-smart-assist',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@harvesterSmartAssist',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@harvesterSmartAssist',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::tsh0XSROmEZGT5xg',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::nxCLW04p3SIqC56U' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-customer-profile',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@getCustomerProfile',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@getCustomerProfile',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::nxCLW04p3SIqC56U',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::SK1Q36yHJUpZxOor' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'api/customer-feedback',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@customerFeedback',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\CustomerController@customerFeedback',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::SK1Q36yHJUpZxOor',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::lf75sFRyJ5LBjDNR' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'api/get-harvester-warranty',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'api',
-          1 => 'CustomerAuth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Api\\Mobile\\ServiceRequestController@getHarvesterWarranty',
-        'controller' => 'App\\Http\\Controllers\\Api\\Mobile\\ServiceRequestController@getHarvesterWarranty',
-        'namespace' => NULL,
-        'prefix' => 'api',
-        'where' => 
-        array (
-        ),
-        'as' => 'generated::lf75sFRyJ5LBjDNR',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'generated::t9cF1zKyLEGahaSO' => 
+    'generated::BQpwEhtYF37W2jzU' => 
     array (
       'methods' => 
       array (
@@ -5555,7 +3534,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::t9cF1zKyLEGahaSO',
+        'as' => 'generated::BQpwEhtYF37W2jzU',
       ),
       'fallback' => false,
       'defaults' => 

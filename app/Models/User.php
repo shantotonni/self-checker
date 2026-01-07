@@ -13,8 +13,8 @@ class User extends Authenticatable implements JWTSubject
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-    protected $table = 'PriceSurveyCustomer';
-    public $primaryKey = 'Id';
+    protected $table = 'UserManager';
+    public $primaryKey = 'UserCode';
     protected $guarded = [];
 
     protected $hidden = [
@@ -38,5 +38,9 @@ class User extends Authenticatable implements JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
+    }
+
+    public function role(){
+        return $this->belongsTo('App\Models\Role','RoleId','RoleId');
     }
 }
