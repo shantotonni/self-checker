@@ -78,19 +78,28 @@ return [
         ],
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
+            'database' => env('DB_DATABASE', 'SelfChecker'), // Main DB name
+            'username' => env('DB_USERNAME', 'sa'),
+            'password' => env('DB_PASSWORD', 'flexiload'),
+            'charset' => 'utf8',
             'prefix' => '',
-            'strict' => true,
-            'engine' => null,
             'prefix_indexes' => true,
-        ]
+        ],
+
+        'outlet_dynamic' => [
+            'driver' => 'sqlsrv',
+            'host' => '', // Will be set dynamically
+            'port' => '1433',
+            'database' => '', // Will be set dynamically
+            'username' => '', // Will be set dynamically
+            'password' => '', // Will be set dynamically
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+        ],
+
     ],
 
     /*

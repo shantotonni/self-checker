@@ -46,6 +46,17 @@ axios.interceptors.request.use(function (config) {
     return config;
 });
 
+// Add request interceptor to automatically include outlet ID
+axios.interceptors.request.use(config => {
+    const outletId = localStorage.getItem('selected_outlet_id');
+    if (outletId) {
+        config.headers['X-Outlet-ID'] = outletId;
+    }
+    return config;
+}, error => {
+    return Promise.reject(error);
+});
+
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('skeleton-loader', require('./components/loaders/Straight').default);
 Vue.component('datatable', require('./components/datatable/Index').default);

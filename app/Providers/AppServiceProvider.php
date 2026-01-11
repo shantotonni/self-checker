@@ -2,25 +2,18 @@
 
 namespace App\Providers;
 
+use App\Services\OutletConnectionManager;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
     public function register()
     {
-        //
+        $this->app->singleton(OutletConnectionManager::class, function ($app) {
+            return new OutletConnectionManager();
+        });
     }
 
-    /**
-     * Bootstrap any application services.
-     *
-     * @return void
-     */
     public function boot()
     {
         //

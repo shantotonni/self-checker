@@ -14,7 +14,6 @@ class Outlet extends Model
     protected $table = 'Outlets';
     protected $primaryKey = 'OutletID';
 
-    // Custom timestamp column names
     const CREATED_AT = 'CreatedAt';
     const UPDATED_AT = 'UpdatedAt';
 
@@ -30,9 +29,11 @@ class Outlet extends Model
         'DatabaseName',
         'DatabaseUser',
         'DatabasePassword',
+        'CreatedAt',
         'CreatedBy',
+        'UpdatedAt',
         'UpdatedBy',
-        'IsDeleted',
+        'IsDeleted'
     ];
 
     protected $casts = [
@@ -46,9 +47,6 @@ class Outlet extends Model
         'IsDeleted',
     ];
 
-    /**
-     * Boot the model
-     */
     protected static function booted()
     {
         static::addGlobalScope('notDeleted', function (Builder $builder) {
@@ -56,9 +54,6 @@ class Outlet extends Model
         });
     }
 
-    /**
-     * Encrypt password when setting
-     */
     public function setDatabasePasswordAttribute($value)
     {
         if ($value && !empty($value)) {
@@ -70,9 +65,6 @@ class Outlet extends Model
         }
     }
 
-    /**
-     * Get decrypted password
-     */
     public function getDecryptedPassword(): ?string
     {
         $password = $this->attributes['DatabasePassword'] ?? null;
@@ -86,33 +78,21 @@ class Outlet extends Model
         return null;
     }
 
-    /**
-     * Scope: Active outlets
-     */
-    public function scopeActive(Builder $query): Builder
+    public function scopeActive($query)
     {
-        return $query->where('Status', 'Active');
+        return $query->where('Status', 'Active')->where('IsDeleted', 0);
     }
 
-    /**
-     * Scope: Filter by status
-     */
     public function scopeByStatus(Builder $query, string $status): Builder
     {
         return $query->where('Status', $status);
     }
 
-    /**
-     * Scope: Filter by city
-     */
     public function scopeByCity(Builder $query, string $city): Builder
     {
         return $query->where('City', $city);
     }
 
-    /**
-     * Scope: Search
-     */
     public function scopeSearch(Builder $query, string $term): Builder
     {
         return $query->where(function ($q) use ($term) {
@@ -124,17 +104,11 @@ class Outlet extends Model
         });
     }
 
-    /**
-     * Check if has DB credentials
-     */
     public function hasCredentials(): bool
     {
         return !empty($this->DatabaseName) && !empty($this->DatabaseUser);
     }
 
-    /**
-     * Is active
-     */
     public function isActive(): bool
     {
         return $this->Status === 'Active';

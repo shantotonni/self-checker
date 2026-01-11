@@ -22,7 +22,6 @@ class OutletSessionController extends Controller
         ]);
 
         try {
-
             $outlet = Outlet::find($request->OutletID);
 
             if (!$outlet) {
@@ -59,6 +58,9 @@ class OutletSessionController extends Controller
             // Remove old session
             Session::forget('current_outlet');
 
+            // Get decrypted password
+            $password = $outlet->DatabasePassword;
+
             // Set new session
             Session::put('current_outlet', [
                 'OutletID' => $outlet->OutletID,
@@ -68,13 +70,35 @@ class OutletSessionController extends Controller
                 'DatabaseName' => $outlet->DatabaseName,
                 'DatabasePort' => $outlet->DatabasePort ?? '1433',
                 'DatabaseUser' => $outlet->DatabaseUser,
-                'DatabasePassword' => $outlet->DatabasePassword, // Already encrypted in model
+                'DatabasePassword' => $password, // Store as is (encrypted or plain)
+                'City' => $outlet->City,
+                'Area' => $outlet->Area,
+                'Status' => $outlet->Status,
             ]);
 
-            Log::info('Outlet switched', [
+            // ✅ IMPORTANT: Explicitly save session
+            Session::save();
+
+            // Verify session was saved
+            $verify = Session::get('current_outlet');
+
+            if (!$verify) {
+                Log::error('Session save failed', [
+                    'outlet_id' => $outlet->OutletID,
+                    'session_driver' => config('session.driver'),
+                ]);
+
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Failed to save session. Please check session configuration.'
+                ], 500);
+            }
+
+            Log::info('Outlet switched successfully', [
                 'outlet_id' => $outlet->OutletID,
                 'outlet_name' => $outlet->OutletName,
                 'ip' => $outlet->IPAddress,
+                'session_id' => Session::getId(),
             ]);
 
             return response()->json([
@@ -85,15 +109,18 @@ class OutletSessionController extends Controller
                     'OutletCode' => $outlet->OutletCode,
                     'OutletName' => $outlet->OutletName,
                     'IPAddress' => $outlet->IPAddress,
+                    'DatabaseName' => $outlet->DatabaseName,
                     'City' => $outlet->City,
                     'Status' => $outlet->Status,
-                ]
+                ],
+                'session_id' => Session::getId(), // For debugging
             ]);
 
         } catch (Exception $e) {
             Log::error('Outlet switch failed', [
                 'outlet_id' => $request->OutletID,
-                'error' => $e->getMessage()
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString(),
             ]);
 
             return response()->json([
@@ -103,9 +130,6 @@ class OutletSessionController extends Controller
         }
     }
 
-    /**
-     * Test current session connection
-     */
     public function test(): JsonResponse
     {
         $current = Session::get('current_outlet');
@@ -113,7 +137,8 @@ class OutletSessionController extends Controller
         if (!$current) {
             return response()->json([
                 'success' => false,
-                'message' => 'No outlet selected. Please select an outlet first.'
+                'message' => 'No outlet selected. Please select an outlet first.',
+                'session_id' => Session::getId(),
             ]);
         }
 
@@ -121,6 +146,8 @@ class OutletSessionController extends Controller
 
         if (!$outlet) {
             Session::forget('current_outlet');
+            Session::save();
+
             return response()->json([
                 'success' => false,
                 'message' => 'Outlet not found. Session cleared.'
@@ -132,18 +159,27 @@ class OutletSessionController extends Controller
         return response()->json($result);
     }
 
-    /**
-     * Get current session outlet
-     */
     public function current(): JsonResponse
     {
+        // Debug session
+        Log::info('Getting current outlet', [
+            'session_id' => Session::getId(),
+            'session_data' => Session::all(),
+            'has_current_outlet' => Session::has('current_outlet'),
+        ]);
+
         $current = Session::get('current_outlet');
 
         if (!$current) {
             return response()->json([
                 'success' => false,
                 'message' => 'No outlet selected.',
-                'outlet' => null
+                'outlet' => null,
+                'session_id' => Session::getId(),
+                'debug' => [
+                    'session_driver' => config('session.driver'),
+                    'session_lifetime' => config('session.lifetime'),
+                ]
             ]);
         }
 
@@ -155,16 +191,17 @@ class OutletSessionController extends Controller
                 'OutletName' => $current['OutletName'],
                 'IPAddress' => $current['IPAddress'],
                 'DatabaseName' => $current['DatabaseName'],
-            ]
+                'City' => $current['City'] ?? null,
+                'Status' => $current['Status'] ?? null,
+            ],
+            'session_id' => Session::getId(),
         ]);
     }
 
-    /**
-     * Clear current session
-     */
     public function clear(): JsonResponse
     {
         Session::forget('current_outlet');
+        Session::save();
 
         return response()->json([
             'success' => true,
@@ -172,9 +209,6 @@ class OutletSessionController extends Controller
         ]);
     }
 
-    /**
-     * Execute SQL on current session outlet
-     */
     public function execute(Request $request): JsonResponse
     {
         $request->validate([
@@ -186,7 +220,8 @@ class OutletSessionController extends Controller
         if (!$current) {
             return response()->json([
                 'success' => false,
-                'message' => 'No outlet selected. Please select an outlet first.'
+                'message' => 'No outlet selected. Please select an outlet first.',
+                'session_id' => Session::getId(),
             ], 400);
         }
 
@@ -200,6 +235,7 @@ class OutletSessionController extends Controller
                     $password = Crypt::decryptString($password);
                 } catch (Exception $e) {
                     // Password might not be encrypted
+                    Log::warning('Password decryption failed, using as is');
                 }
             }
 
@@ -265,15 +301,19 @@ class OutletSessionController extends Controller
         try {
             $connectionName = 'outlet_test_' . $outlet->OutletID . '_' . time();
 
-            // Get password (decrypt if stored encrypted)
             $password = $outlet->DatabasePassword;
-//            if ($password) {
-//                try {
-//                    $password = $this->decryptPassword($password);
-//                } catch (Exception $e) {
-//                    return response()->json($e->getMessage());
-//                }
-//            }
+
+            // Try to decrypt if it looks encrypted
+            if ($password && str_starts_with($password, 'eyJ')) {
+                try {
+                    $password = Crypt::decryptString($password);
+                } catch (Exception $e) {
+                    Log::warning('Password decryption failed', [
+                        'outlet_id' => $outlet->OutletID,
+                        'error' => $e->getMessage()
+                    ]);
+                }
+            }
 
             Config::set("database.connections.{$connectionName}", [
                 'driver' => 'sqlsrv',
@@ -301,21 +341,15 @@ class OutletSessionController extends Controller
                 DB::purge($connectionName);
             }
 
+            Log::error('Connection test failed', [
+                'outlet_id' => $outlet->OutletID,
+                'error' => $e->getMessage()
+            ]);
+
             return [
                 'success' => false,
                 'message' => $e->getMessage()
             ];
         }
-    }
-
-    function decryptPassword($encryptedText)
-    {
-        $secretKey = 'MY_SECRET_KEY_123';
-        $secretIv  = 'MY_SECRET_IV_123';
-
-        $key = hash('sha256', $secretKey);
-        $iv  = substr(hash('sha256', $secretIv), 0, 16);
-
-        return openssl_decrypt($encryptedText, 'AES-256-CBC', $key, 0, $iv);
     }
 }

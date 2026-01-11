@@ -13,6 +13,8 @@ class User extends Authenticatable implements JWTSubject
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+    protected $connection = 'sqlsrv';
+
     protected $table = 'UserManager';
     public $primaryKey = 'UserCode';
     protected $guarded = [];

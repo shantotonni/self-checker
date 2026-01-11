@@ -33,8 +33,9 @@ import MenuCreate from '../views/menu/Create'
 import MenuEdit from '../views/menu/Edit'
 import ChangePassword from '../views/settings/ChangePassword'
 import RoleList from '../views/role/List'
-import Configure from '../views/configure/List'
 import OutletList from '../views/outlet/List'
+import MobileTerminal from '../views/setup/MobileTerminal'
+
 import Profile from '../views/profile/Profile'
 
 const routes = [
@@ -54,8 +55,8 @@ const routes = [
             {path: base_url + '/change-password', name: 'ChangePassword', component: ChangePassword},
             //Role vue route
             {path: base_url + '/role-list', name: 'RoleList', component: RoleList},
-            {path: base_url + '/configure', name: 'Configure', component: Configure},
             {path: base_url + '/outlet-list', name: 'OutletList', component: OutletList},
+            {path: base_url + '/mobile-terminal', name: 'MobileTerminal', component: MobileTerminal},
 
             //user profile route
             {

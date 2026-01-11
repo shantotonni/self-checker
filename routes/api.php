@@ -1,27 +1,17 @@
 <?php
-
-use App\Http\Controllers\Api\AdminDashboardController;
-
-use App\Http\Controllers\Api\CustomerController;
 use App\Http\Controllers\Api\DashboardController;
-use App\Http\Controllers\Api\DealerController;
 use App\Http\Controllers\Api\MenuController;
 use App\Http\Controllers\Api\MenuPermissionController;
-use App\Http\Controllers\Api\Mobile\CommonController;
-use App\Http\Controllers\Api\Mobile\ReportController;
-use App\Http\Controllers\Api\OutletConfigurationController;
+use App\Http\Controllers\Api\MobileTerminalController;
+
 use App\Http\Controllers\Api\OutletConnectionController;
 use App\Http\Controllers\Api\OutletController;
 use App\Http\Controllers\Api\OutletSessionController;
 use App\Http\Controllers\Api\RoleController;
 use App\Http\Controllers\Api\SettingController;
-use App\Http\Controllers\Api\ShowroomController;
+
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\BusinessProductController;
-use App\Http\Controllers\CustomerAuthController;
-use App\Http\Controllers\MokamController;
-use App\Http\Controllers\ProductPriceController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('login', [AuthController::class, 'login']);
@@ -53,48 +43,18 @@ Route::group(['middleware' => 'jwtauth:api'], function () {
     Route::get('search/role/{query}', [RoleController::class, 'search']);
 
     Route::prefix('outlets')->group(function () {
-        // Specific routes FIRST
         Route::get('/active', [OutletController::class, 'getActiveOutlets']);
-        Route::get('/search/{query}', [OutletController::class, 'search']);
-        Route::post('/test-connection', [OutletController::class, 'testConnection']);
-
         // Resource routes LAST
         Route::get('/', [OutletController::class, 'index']);
         Route::post('/', [OutletController::class, 'store']);
         Route::get('/{outlet}', [OutletController::class, 'show']);
         Route::put('/{outlet}', [OutletController::class, 'update']);
         Route::delete('/{outlet}', [OutletController::class, 'destroy']);
+
+        Route::get('/search/{query}', [OutletController::class, 'search']);
+        Route::post('/test-connection', [OutletController::class, 'testConnection']);
     });
 
-    Route::prefix('outlet-configurations')->group(function () {
-        Route::get('/', [OutletConfigurationController::class, 'index']);
-        Route::post('/', [OutletConfigurationController::class, 'store']);
-        Route::get('/{outletConfiguration}', [OutletConfigurationController::class, 'show']);
-        Route::put('/{outletConfiguration}', [OutletConfigurationController::class, 'update']);
-        Route::delete('/{outletConfiguration}', [OutletConfigurationController::class, 'destroy']);
-
-        Route::get('/search/{query}', [OutletConfigurationController::class, 'search']);
-        Route::post('/test-connection', [OutletConfigurationController::class, 'testConnection']);
-        Route::post('/{outletConfiguration}/execute', [OutletConfigurationController::class, 'execute']);
-        Route::post('/{outletConfiguration}/retry', [OutletConfigurationController::class, 'retry']);
-        Route::post('/bulk-execute', [OutletConfigurationController::class, 'bulkExecute']);
-        Route::get('/stats/pending-count', [OutletConfigurationController::class, 'getPendingCount']);
-        Route::get('/status/{status}', [OutletConfigurationController::class, 'getByStatus']);
-    });
-
-    Route::prefix('outlet-connection')->group(function () {
-
-        // Test database connection
-        Route::post('/test', [OutletConnectionController::class, 'testConnection']);
-
-        // Session management
-        Route::post('/set-session', [OutletConnectionController::class, 'setSession']);
-        Route::get('/get-session', [OutletConnectionController::class, 'getSession']);
-        Route::post('/clear-session', [OutletConnectionController::class, 'clearSession']);
-
-        // Execute on session outlet
-        Route::post('/execute', [OutletConnectionController::class, 'executeOnSession']);
-    });
 
     Route::prefix('outlet-session')->group(function () {
         Route::post('/switch', [OutletSessionController::class, 'switch']);
@@ -104,6 +64,24 @@ Route::group(['middleware' => 'jwtauth:api'], function () {
         Route::post('/execute', [OutletSessionController::class, 'execute']);
     });
 
+    // Outlet Connection Routes
+    Route::prefix('outlet-connection')->group(function () {
+        Route::get('/outlets', [OutletConnectionController::class, 'getActiveOutlets']);
+        Route::post('/test', [OutletConnectionController::class, 'testConnection']);
+        Route::post('/set-active', [OutletConnectionController::class, 'setActiveOutlet']);
+    });
+
+    // Mobile Terminal Routes
+    Route::prefix('mobile-terminals')->group(function () {
+        Route::get('/', [MobileTerminalController::class, 'index']);
+        Route::post('/', [MobileTerminalController::class, 'store']);
+        Route::get('/device-types', [MobileTerminalController::class, 'getDeviceTypes']);
+        Route::get('/printer-types', [MobileTerminalController::class, 'getPrinterTypes']);
+        Route::get('/{id}', [MobileTerminalController::class, 'show']);
+        Route::put('/{id}', [MobileTerminalController::class, 'update']);
+        Route::delete('/{id}', [MobileTerminalController::class, 'destroy']);
+        Route::post('/{id}/toggle-sync', [MobileTerminalController::class, 'toggleSync']);
+    });
 
     //change-password
     Route::post('change-password', [SettingController::class, 'changePassword']);
