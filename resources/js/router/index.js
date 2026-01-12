@@ -35,6 +35,10 @@ import ChangePassword from '../views/settings/ChangePassword'
 import RoleList from '../views/role/List'
 import OutletList from '../views/outlet/List'
 import MobileTerminal from '../views/setup/MobileTerminal'
+import PaymentREQInfoLog from '../views/setup/PaymentREQInfoLog'
+import PaymentSuccessInfo from '../views/setup/PaymentSuccessInfo'
+import PaymentType from '../views/setup/PaymentType'
+import AppVersionInfo from '../views/setup/AppVersionInfo'
 
 import Profile from '../views/profile/Profile'
 
@@ -57,6 +61,10 @@ const routes = [
             {path: base_url + '/role-list', name: 'RoleList', component: RoleList},
             {path: base_url + '/outlet-list', name: 'OutletList', component: OutletList},
             {path: base_url + '/mobile-terminal', name: 'MobileTerminal', component: MobileTerminal},
+            {path: base_url + '/payment-req-info-log', name: 'PaymentREQInfoLog', component: PaymentREQInfoLog},
+            {path: base_url + '/payment-success-info', name: 'PaymentSuccessInfo', component: PaymentSuccessInfo},
+            {path: base_url + '/payment-type', name: 'PaymentType', component: PaymentType},
+            {path: base_url + '/app-version-info', name: 'AppVersionInfo', component: AppVersionInfo},
 
             //user profile route
             {

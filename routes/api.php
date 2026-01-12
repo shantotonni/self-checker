@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\Api\AppVersionInfoController;
 use App\Http\Controllers\Api\DashboardController;
 use App\Http\Controllers\Api\MenuController;
 use App\Http\Controllers\Api\MenuPermissionController;
@@ -7,6 +9,9 @@ use App\Http\Controllers\Api\MobileTerminalController;
 use App\Http\Controllers\Api\OutletConnectionController;
 use App\Http\Controllers\Api\OutletController;
 use App\Http\Controllers\Api\OutletSessionController;
+use App\Http\Controllers\Api\PaymentREQInfoLogController;
+use App\Http\Controllers\Api\PaymentSuccessInfoController;
+use App\Http\Controllers\Api\PaymentTypeController;
 use App\Http\Controllers\Api\RoleController;
 use App\Http\Controllers\Api\SettingController;
 
@@ -81,6 +86,55 @@ Route::group(['middleware' => 'jwtauth:api'], function () {
         Route::put('/{id}', [MobileTerminalController::class, 'update']);
         Route::delete('/{id}', [MobileTerminalController::class, 'destroy']);
         Route::post('/{id}/toggle-sync', [MobileTerminalController::class, 'toggleSync']);
+    });
+
+    // Payment Request Info Log Routes
+    Route::prefix('payment-logs')->group(function () {
+        Route::get('/', [PaymentREQInfoLogController::class, 'index']);
+        Route::post('/', [PaymentREQInfoLogController::class, 'store']);
+        Route::get('/payment-types', [PaymentREQInfoLogController::class, 'getPaymentTypes']);
+        Route::get('/terminals', [PaymentREQInfoLogController::class, 'getTerminals']);
+        Route::get('/stats', [PaymentREQInfoLogController::class, 'getStats']);
+        Route::get('/{id}', [PaymentREQInfoLogController::class, 'show']);
+        Route::put('/{id}', [PaymentREQInfoLogController::class, 'update']);
+        Route::delete('/{id}', [PaymentREQInfoLogController::class, 'destroy']);
+    });
+
+    // Payment Success Info Routes
+    Route::prefix('payment-success')->group(function () {
+        Route::get('/', [PaymentSuccessInfoController::class, 'index']);
+        Route::post('/', [PaymentSuccessInfoController::class, 'store']);
+        Route::get('/card-types', [PaymentSuccessInfoController::class, 'getCardTypes']);
+        Route::get('/issuers', [PaymentSuccessInfoController::class, 'getIssuers']);
+        Route::get('/terminals', [PaymentSuccessInfoController::class, 'getTerminals']);
+        Route::get('/stats', [PaymentSuccessInfoController::class, 'getStats']);
+        Route::get('/{id}', [PaymentSuccessInfoController::class, 'show']);
+        Route::put('/{id}', [PaymentSuccessInfoController::class, 'update']);
+        Route::delete('/{id}', [PaymentSuccessInfoController::class, 'destroy']);
+    });
+
+    // Payment Type Routes
+    Route::prefix('payment-types')->group(function () {
+        Route::get('/', [PaymentTypeController::class, 'index']);
+        Route::post('/', [PaymentTypeController::class, 'store']);
+        Route::get('/terminals', [PaymentTypeController::class, 'getTerminals']);
+        Route::get('/stats', [PaymentTypeController::class, 'getStats']);
+        Route::get('/{id}', [PaymentTypeController::class, 'show']);
+        Route::put('/{id}', [PaymentTypeController::class, 'update']);
+        Route::delete('/{id}', [PaymentTypeController::class, 'destroy']);
+        Route::post('/{id}/toggle', [PaymentTypeController::class, 'togglePaymentMethod']);
+    });
+
+    // App Version Info Routes
+    Route::prefix('app-versions')->group(function () {
+        Route::get('/', [AppVersionInfoController::class, 'index']);
+        Route::post('/', [AppVersionInfoController::class, 'store']);
+        Route::get('/packages', [AppVersionInfoController::class, 'getPackageNames']);
+        Route::get('/stats', [AppVersionInfoController::class, 'getStats']);
+        Route::get('/{id}', [AppVersionInfoController::class, 'show']);
+        Route::put('/{id}', [AppVersionInfoController::class, 'update']);
+        Route::delete('/{id}', [AppVersionInfoController::class, 'destroy']);
+        Route::post('/{id}/toggle-status', [AppVersionInfoController::class, 'toggleStatus']);
     });
 
     //change-password
